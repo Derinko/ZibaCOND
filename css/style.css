@@ -243,6 +243,10 @@ p{
   .nav-item > a {
     color: #ffff;
   }
+  .navbar-brand{
+    color: #ffff !important;
+    font-family:'Playfair Display', serif !important ;
+  }
   .header {
     display: grid;
     grid-template-columns: 40% 60%;
