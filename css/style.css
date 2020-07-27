@@ -224,7 +224,7 @@ p{
   }
   p{
     font-family: 'Source Sans Pro', sans-serif!important;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .navbar {
     background-color: #008ecb;
@@ -281,7 +281,8 @@ p{
     font-size: 2vw !important;
   }
   .card-deck {
-    display: flex;
+    display: inline-block;
+    border: 1px solid;
     height: 40%;
     width: 100%;
   }
@@ -308,9 +309,7 @@ p{
     grid-column: 1/-1;
 
   }
-  .me>h1{
-    font-size: 1.5rem;
-  }
+
   .me > img {
     grid-column: 1/1;
     grid-row: 1/1;
@@ -323,6 +322,9 @@ p{
     grid-column: 2/2;
     width: 100%;
     padding-left: 3%;
+  }
+  .background > h1{
+    font-size: 1.5rem;
   }
   .break{
     text-align: center;
@@ -339,7 +341,7 @@ p{
   .company {
     display: inline-block;
     background-color: #ea852f;
-    height: 16rem;
+    height: auto;
     text-align: center;
     grid-row: 2/2;
   }
