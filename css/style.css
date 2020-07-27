@@ -215,14 +215,14 @@ p{
   }
   h1{
     font-family: 'Playfair Display', serif !important;
-    font-size: 6vw;
+    font-size: 6vw !important;
   }
   h2{
     font-family: 'Playfair Display', serif !important;
   }
   h5{
     font-family: 'Playfair Display', serif !important;
-    font-size: 4vw;
+    font-size: 4vw !important;
   }
   p{
     font-family: 'Source Sans Pro', sans-serif!important;
