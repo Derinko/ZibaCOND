@@ -282,12 +282,13 @@ p{
   }
   .card-deck {
     display: inline-block;
-    border: 1px solid;
+    
     height: 40%;
     width: 100%;
   }
   .card {
     height: 100% !important;
+    border: 1px solid;
     border-width: 0 !important;
     text-align: center;
   }
