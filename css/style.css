@@ -295,7 +295,9 @@ p{
     border-width: 0 !important;
     text-align: center;
   }
-  
+  .card-title{
+    font-size: 4vw !important ;
+  }
   .card > img {
     height: 3.5rem;
     width: 3.5rem;
