@@ -1,0 +1,129 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+  h1{
+    font-family: 'Playfair Display', serif !important;
+  }
+  h2{
+    font-family: 'Playfair Display', serif !important;
+  }
+  h5{
+    font-family: 'Playfair Display', serif !important;
+  }
+  p{
+    font-family: 'Source Sans Pro', sans-serif!important;
+    font-size: 1.5vw;
+  }
+  .container-fluid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 5% 45% 5% 25% 20%;
+    margin: 0;
+    padding: 0 !important;
+    height: 80rem;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .navbar {
+      grid-row: 1/1;
+    background-color: #008ecb;
+  }
+  .navbar > a {
+    color: #ffff;
+  }
+  .nav-item > a {
+    color: #ffff;
+  }
+  .options{ 
+   
+   
+    text-align: center;
+      grid-row: 2/2;
+  }
+  .moto{
+      grid-row: 3/3;
+      text-align: center;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      color: #ea852f;
+  }
+  .options >img {
+      height:100% ;
+      width: 100%;
+  }
+  .services{
+    grid-row: 4/4;
+  }
+.list{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 20rem;
+    height: 10rem;
+    margin-left: 20%;
+   
+}
+.serv{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+    grid-column: 1/-1;
+    border-bottom: 1px solid #000;
+}
+.serv >svg {
+    grid-column: 1/1;
+    border-right:1px solid #000;
+    padding-bottom: 1rem;
+}
+.serv >h2 {
+    font-size: 1.2em;
+    grid-column: 2/2;
+}
+  .services  .nav-tabs{
+      width: 100%;
+      justify-content: center;
+  }
+  .services .nav-item{
+      width: 10rem;
+      margin-right: 1%;
+      margin-left: 1%;
+  }
+ .services .nav-link{
+      color: black!important;
+      border-bottom: 1px solid #000 !important;
+  }
+  .r {
+    padding-left: 44% !important;
+  }
+  .Serv{
+    display: grid;
+    grid-gap: 10%;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0 !important;
+  }
+  .Serv >h1{
+    grid-row: 1/1;
+    grid-column: 1/-1;
+  
+  }
+  .b{
+    grid-column: 2/2 !important;
+  }
+  .c{
+    grid-column: 3/3 !important;
+  }
+  .footer{
+    grid-row:  5/5;
+  }
+  .footer > a img {
+    width: 3rem;
+    height: 3rem ;
+  }
