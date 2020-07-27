@@ -211,7 +211,7 @@ p{
     grid-template-rows: 2%[top] 15% [banner] 26%[about] 41%[he] 16% [footer];
     margin: 0;
     padding: 0 !important;
-    height: 140rem;
+    height: 100rem;
     width: 100%;
   
   }
