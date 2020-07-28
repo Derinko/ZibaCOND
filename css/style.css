@@ -10,7 +10,7 @@
   .container-fluid {
     display: grid;
     grid-template-columns: repeat(autofill, minmax(320px, 1fr));
-    grid-template-rows: 2%[top] 15% [banner] 26%[about] 41%[he] 16% [footer];
+    grid-template-rows: 2%[top] 15% [banner] 26%[about] 44%[he] 13% [footer];
     margin: 0;
     padding: 0 !important;
     height: 140rem;
@@ -57,6 +57,7 @@
 
   .moto {
     padding-left: 5%;
+    padding-top: 5%;
     color: #ea852f;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -102,7 +103,7 @@
   }
 
   .card-deck {
-    height: 40%;
+    height: 80%;
     width: 100%;
   }
 
@@ -162,7 +163,7 @@
 
   .company {
     background-color: #ea852f;
-    height: 35rem;
+    height: 60%;
     text-align: center;
     grid-row: 2/2;
   }
