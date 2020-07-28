@@ -156,4 +156,161 @@
   }
 }
 
-@media (min-width: 768px) and (max-width:1199px) {}
+@media (min-width: 320px) and (max-width:766px) {
+  .container-fluid{
+    display: inline-block;
+    margin: 0;
+    padding: 0 !important;
+    height: 40rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif !important;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif !important;
+  }
+
+  h5 {
+    font-family: 'Playfair Display', serif !important;
+  }
+
+  p {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 1.5vw;
+  }
+
+
+  .navbar {
+    grid-row: 1/1;
+    background-color: #008ecb;
+  }
+
+  .navbar>a {
+    color: #ffff;
+  }
+
+  .nav-item>a {
+    color: #ffff;
+  }
+
+  .options {
+    display: inline-block;
+    text-align: center;
+
+  }
+
+  .moto {
+    display: inline-block;
+    font-size: 3vw !important;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #ea852f;
+  }
+
+  .options>img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .services {
+    grid-row: 4/4;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 20rem;
+    height: 10rem;
+    margin-left: 20%;
+
+  }
+
+  .serv {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+    grid-column: 1/-1;
+    border-bottom: 1px solid #000;
+  }
+
+  .serv>svg {
+    grid-column: 1/1;
+    border-right: 1px solid #000;
+    padding-bottom: 1rem;
+  }
+
+  .serv>h2 {
+    font-size: 1.2em;
+    grid-column: 2/2;
+  }
+
+#myTab {
+    display: inline-flex;
+    flex-wrap: wrap ;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #myTab .nav-item {
+    display: inline-block !important;
+    width: 10rem;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .services .nav-link {
+    color: black !important;
+    border-bottom: 1px solid #000 !important;
+  }
+  .tab-content{
+    width: 100%;
+  }
+
+  .r {
+    padding-left: 44% !important;
+  }
+
+  .Serv {
+    display: inline-block;
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0 !important;
+  }
+
+  .Serv>h1 {
+    grid-row: 1/1;
+    grid-column: 1/-1;
+
+  }
+
+  .b {
+    grid-column: 2/2 !important;
+  }
+
+  .c {
+    grid-column: 3/3 !important;
+  }
+
+  .footer {
+    grid-row: 5/5;
+  }
+
+  .footer>a img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
