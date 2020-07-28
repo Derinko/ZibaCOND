@@ -161,7 +161,7 @@
     display: inline-block;
     margin: 0;
     padding: 0 !important;
-    height: 40rem;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
   }
   body {
@@ -209,7 +209,7 @@
   }
 
   .moto {
-    display: inline-block;
+    display: block;
     font-size: 3vw !important;
     text-align: center;
     -webkit-text-stroke-width: 1px;
@@ -278,13 +278,11 @@
     width: 100%;
   }
 
-  .r {
-    padding-left: 44% !important;
-  }
 
   .Serv {
     display: inline-block;
-
+    padding-left: 5%;
+    padding-right: 5%;
     width: 100%;
     height: auto;
     text-align: center;
