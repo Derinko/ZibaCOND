@@ -91,7 +91,10 @@
     font-size: 1.2em;
     grid-column: 2/2;
   }
-
+  .nav-tabs {
+    padding-left: 5% !important;
+    padding-right: 5% !important;}
+    
   .services .nav-tabs {
     width: 100%;
     justify-content: center;
@@ -159,10 +162,12 @@
 
   h1 {
     font-family: 'Playfair Display', serif !important;
+
   }
 
   h2 {
     font-family: 'Playfair Display', serif !important;
+    
   }
 
   h5 {
@@ -193,7 +198,8 @@
   .options {
     display: inline-block;
     text-align: center;
-
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .moto {
@@ -280,11 +286,14 @@
   }
 
   .Serv>h1 {
+    font-size: 9  vw !important;
     grid-row: 1/1;
     grid-column: 1/-1;
 
   }
-
+  .content > h2{
+    font-size: 7vw !important;
+  }
   .b {
     grid-column: 2/2 !important;
   }
