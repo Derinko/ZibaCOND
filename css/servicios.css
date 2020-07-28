@@ -72,15 +72,6 @@
     grid-row: 4/4;
   }
 
-  .list {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 25% 25% 25% 25%;
-    width: 20rem;
-    height: 10rem;
-    margin-left: 20%;
-
-  }
 
   .serv {
     display: grid;
@@ -117,15 +108,11 @@
     border-bottom: 1px solid #000 !important;
   }
 
-  .r {
-    padding-left: 44% !important;
-  }
+ 
 
   .Serv {
-    display: grid;
-    grid-gap: 10%;
-    grid-template-rows: 20% 80%;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: inline-block;
+
     width: 100%;
     height: auto;
     text-align: center;
@@ -137,17 +124,18 @@
     grid-column: 1/-1;
 
   }
+.carousel-item >img{
+  width: 50rem !important;
+  height: 20rem !important;
+}
 
-  .b {
-    grid-column: 2/2 !important;
-  }
-
-  .c {
-    grid-column: 3/3 !important;
-  }
 
   .footer {
-    grid-row: 5/5;
+    height: auto;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
   }
 
   .footer>a img {
@@ -306,7 +294,8 @@
   }
 
   .footer {
-    grid-row: 5/5;
+    text-align: center;
+    border: 1px solid;
   }
 
   .footer>a img {
