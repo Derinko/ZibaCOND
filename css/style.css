@@ -208,6 +208,7 @@ p{
   .container-fluid {
     display: inline-block;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
     padding: 0 !important;
     height: 70rem;
     width: 100%;
@@ -239,9 +240,11 @@ p{
 
   .navbar > a {
     color: #ffff;
+    font-family: 'Montserrat', sans-serif !important;
   }
   .nav-item > a {
     color: #ffff;
+    font-family: 'Montserrat', sans-serif !important;
   }
   .navbar-brand{
     color: #ffff !important;

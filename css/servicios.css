@@ -190,10 +190,12 @@
 
 
   .navbar {
-    grid-row: 1/1;
     background-color: #008ecb;
   }
-
+  .navbar-brand{
+    color: #ffff !important;
+    font-family:'Playfair Display', serif !important ;
+  } 
   .navbar>a {
     color: #ffff;
   }
