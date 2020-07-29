@@ -57,7 +57,7 @@
 
   .moto {
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 15%;
     color: #ea852f;
   
   }
@@ -306,12 +306,13 @@
   }
 
   .moto {
+    padding-top: 15%;
     padding-left: 5%;
     color: #ea852f;
   }
 
   .slogan {
-    font-size: 7vw !important;
+    font-size: 6vw !important;
     font-family: 'Noto Sans', sans-serif !important;
   }
 
@@ -549,6 +550,7 @@
   }
 
   .moto {
+    padding-top: 15%;
     padding-left: 5%;
     color: #ea852f;
   }
