@@ -59,12 +59,11 @@
     padding-left: 5%;
     padding-top: 5%;
     color: #ea852f;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+  
   }
 
   .slogan {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Noto Sans', sans-serif !important;
   }
 
